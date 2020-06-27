@@ -69,3 +69,51 @@ span.portfolio-item-tag {
     border-radius: 10px;
     margin-right: 10px;
 }
+
+#portfolio-big-circle {
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    background-color: #FDCC8D;
+    height: 350px;
+    width: 350px;
+    border-radius: 350px;
+    z-index: -100;
+}
+
+#portfolio-small-circle {
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    background-color: #FCF5CA;
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    z-index: -100;
+}
+
+h1.portfolio-intro {
+    color: #707070;
+    padding: 20px;
+    font-size: 55px;
+}
+
+h1.portfolio-intro-left {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+}
+
+span.portfolio-intro-tag {
+    font-weight: lighter;
+    font-size: 23px;
+}
+
+h1.portfolio-intro-top {
+    text-align: center;
+    font-size: 40px;
+}
+
+span.portfolio-intro-tag-top {
+    font-size: 25px;
+}

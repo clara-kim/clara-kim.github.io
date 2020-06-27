@@ -15,6 +15,29 @@
 
         <!--ABOUT SECTION - the left side of the page-->
         <div id="portfolio-left" class="col-lg-6">
+            <div id="portfolio-small-circle" class="d-none d-lg-block"></div>
+            <div id="portfolio-big-circle" class="d-none d-lg-block"></div>
+
+            <!--Intro text on screens larger than lg-->
+            <div class="d-none d-lg-block">
+                <h1 class="portfolio-intro portfolio-intro-left">
+                    Hello, world! <br> I'm Clara. <br>
+                    <span class="portfolio-intro-tag">
+                        &nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp&nbsp;&nbsp;
+                        a user-lovin' computer science student
+                    </span>
+                </h1>
+            </div>
+
+            <!--Intro text on screens smaller than lg-->
+            <div class="d-lg-none">
+                <h1 class="portfolio-intro portfolio-intro-top">
+                    Hello, world! I'm Clara. <br>
+                    <span class="portfolio-intro-tag portfolio-intro-tag-top">
+                        a user-lovin' computer science student
+                    </span>
+                </h1>
+            </div>
         </div>
 
         <!--PORTFOLIO SECTION - the right side of the page-->
@@ -55,6 +78,7 @@
                 <img src="./src/img/word-nerds-screenshot.png" class="col-xl-4 d-none d-xl-block">
             </div>
 
+            <!--SKETCH STITCH SECTION-->
             <div class="portfolio-item row">
                 <img src="./src/img/you-in-screenshot.png" class="col-xl-2 d-none d-xl-block">
                 <div class="col-xl-10 portfolio-item-text">
