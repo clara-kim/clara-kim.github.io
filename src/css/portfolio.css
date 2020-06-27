@@ -1,7 +1,5 @@
 html, body {
-    /*height: 100%;*/
     margin: 0;
-    /*overflow: hidden;*/
 }
 
 body {
@@ -11,14 +9,6 @@ body {
 div#portfolio-whole {
     height: 100%;
     padding-top: 10px;
-}
-
-div#portfolio-left {
-    /*background-color: darkslategrey;*/
-}
-
-div#portfolio-right {
-    /*background-color: lightseagreen;*/
 }
 
 /*CSS horizontal line technique reference:
