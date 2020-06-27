@@ -10,6 +10,64 @@
     <link href="src/css/portfolio.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>HELLO, WORLD!</h1>
+    <!--row div to wrap the entire page-->
+    <div id="portfolio-whole" class="row">
+
+        <!--ABOUT SECTION - the left side of the page-->
+        <div id="portfolio-left" class="col-lg-6">
+        </div>
+
+        <!--PORTFOLIO SECTION - the right side of the page-->
+        <div id="portfolio-right" class="col-lg-6">
+            <h2 id="portfolio-title-line">
+                <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <span id="portfolio-title"> portfolio </span>
+            </h2>
+
+            <!--YOU IN SECTION-->
+            <div class="portfolio-item row">
+                <img src="./src/img/you-in-screenshot.png" class="col-xl-2 d-none d-xl-block">
+                <div class="col-xl-10 portfolio-item-text">
+                    <h2 class="portfolio-item-title">You In?</h2>
+                    <p>
+                        An app that aims to make it easier for friends to plan meetups.
+                    </p>
+                    <span class="portfolio-item-tag">
+                        human-computer interaction
+                    </span>
+                    <span class="portfolio-item-tag">
+                        mobile app development
+                    </span>
+                </div>
+            </div>
+
+            <!--WORD NERDS SECTION-->
+            <div class="portfolio-item row">
+                <div class="col-xl-8 portfolio-item-text">
+                    <h2 class="portfolio-item-title">Word Nerds</h2>
+                    <p>
+                        A community dictionary of users engaging with meaningful input.
+                    </p>
+                    <span class="portfolio-item-tag">
+                        frontend development
+                    </span>
+                </div>
+                <img src="./src/img/word-nerds-screenshot.png" class="col-xl-4 d-none d-xl-block">
+            </div>
+
+            <div class="portfolio-item row">
+                <img src="./src/img/you-in-screenshot.png" class="col-xl-2 d-none d-xl-block">
+                <div class="col-xl-10 portfolio-item-text">
+                    <h2 class="portfolio-item-title">Sketch Stitch</h2>
+                    <p>
+                        A collaborative painting application where users virtually paint on the same canvas over a network.
+                    </p>
+                    <span class="portfolio-item-tag">
+                        software engineering
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
