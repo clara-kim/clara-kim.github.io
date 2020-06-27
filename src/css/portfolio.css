@@ -117,3 +117,29 @@ h1.portfolio-intro-top {
 span.portfolio-intro-tag-top {
     font-size: 25px;
 }
+
+a.portfolio-icon {
+    padding-left: 40px;
+}
+
+.fa-github {
+    color: black;
+}
+
+.fa-file-text {
+    color: #FF9C6C;
+}
+
+#portfolio-icon-links {
+    font-size: 50px;
+    position: absolute;
+    left: 30%;
+    top: 83%;
+}
+
+#portfolio-icon-links-bottom {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+    background-color: #FCF5CA;
+}
