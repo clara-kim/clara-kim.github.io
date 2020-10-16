@@ -137,3 +137,7 @@ a.portfolio-icon {
     text-align: center;
     padding-bottom: 20px;
 }
+
+a.portfolio-link {
+    text-decoration: none;
+}
