@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Clara's Portfolio - You In?</title>
+    <title>You In?</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -11,80 +11,205 @@
     <link href="src/css/project.css" rel="stylesheet"/>
 </head>
 <body>
-    <h1>--UNDER CONSTRUCTION. PLEASE PARDON THE MESS.--</h1>
-    <br/>
-    
-    <h1>You In?</h1>
-    <br/>
-    
+    <div class="row portfolio-top-image portfolio-top-section">
+        <img class="col-4" src="./src/img/projects/you-in/you-in-impl-explore.jpg"/>
+        <img class="col-4" src="./src/img/projects/you-in/you-in-impl-friends.jpg"/>
+        <img class="col-4" src="./src/img/projects/you-in/you-in-impl-create-circle.jpg"/>
+    </div>
+
     <!--General details about the project.-->
-    <h3>The Project</h3>
-    <p>September-December, 2019</p>
-    <p>You In? is an app that aims to make it easier for friends to plan meetups.</p>
-    <p>Basically, it works by:</p>
+    <div class="row portfolio-description-section">
+        <div class="col-sm-4">
+            <h1>You In?</h1>
+            <p class="project-italicized">September-December, 2019</p>
+        </div>
+
+        <div class="col-sm-8 portfolio-light-section">
+            <h5> What is it?</h5>
+            <p>You In? is an app that aims to make it easier for friends to plan meetups.</p>
+            <p>Basically, it works by:</p>
+            <ol>
+                <li>Users sharing their available free times (“events”) along with details they might want to do during
+                    that time (e.g., meals, drinks, study buddy).</li>
+                <li>Users seeing and joining their friend’s “events” if they’re available.</li>
+            </ol>
+            <br/>
+            <h5> Who did it?</h5>
+            <p>A team of 4 throughout a human-computer interaction (HCI) course</p>
+            <br/>
+            <h5> Project Type</h5>
+            <p>HCI + Mobile Application Development (NativeScript+Vue)</p>
+        </div>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>Research</h1>
+    </div>
+
+    <!--Research -- The Problem-->
+    <div class="row portfolio-description-section">
+        <h3 class="col-sm-4">Defining the Problem</h3>
+        <p class="col-sm-8">It’s difficult to find time to get together with friends. The issue is exacerbated by highly
+            variable schedules and the inability to easily communicate one's free time to each of one's friends.</p>
+    </div>
+
+    <!--Research -- Existing Research-->
+    <div class="row portfolio-description-section">
+        <h3 class="col-sm-4">Reviewing Existing Research</h3>
+        <div class="col-sm-8">
+            <p>Research in the field of shared calendars has mostly been restricted to calendars shared within families
+                or workplaces, instead of friendships. Bødker and  Grönvall summarize the three core uses of family
+                calendars: </p>
+            <ol>
+                <li>Coordination and Negotiation: to work out a shared understanding of what, when and by whom
+                    something should be performed,</li>
+                <li>Review and reminders: to provide an overview (short-term and future) of what activities will take
+                    place and act as a to-do list and finally</li>
+                <li>Awareness: provide and understand what other people within a family are doing and where.</li>
+            </ol>
+           <p>Our project will primarily focus on the third use (awareness). We want to make it easy for users to see
+               when their friends are available and to easily find time to meet. The secondary purpose of our project
+               would be the first use (coordination and negotiation). Following awareness of available times to meet,
+               we would like our users to be able to decide what to do during that time. Our project will splinter from
+               the second use (review and reminders) as events posted will not serve as a traditional posting on a
+               calendar (eg. a family dinner or office meeting you must attend). Instead posted events will serve more
+               as open invitations to whoever is willing and available to join.</p>
+           <p>References:</p>
+           <ol>
+           <li>Hutchison, H., Bederson, B. B., Plaisant, C., & Druin, A. (2003). Family Calendar Survey . University of Maryland. Retrieved from https://drum.lib.umd.edu/handle/1903/1236</li>
+           <li>Bødker S., Grönvall E. (2013) Calendars: Time Coordination and Overview in Families and Beyond. In: Bertelsen O., Ciolfi L., Grasso M., Papadopoulos G. (eds) ECSCW 2013: Proceedings of the 13th European Conference on Computer Supported Cooperative Work, 21-25 September 2013, Paphos, Cyprus. Springer, London</li>
+           </ol>
+        </div>
+    </div>
+
+    <!--Research -- Existing Applications-->
+    <div class="row portfolio-description-section">
+        <div class="col-sm-4">
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-existing-app-google.png"/>
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-existing-app-fb.png"/>
+        </div>
+        <div class="col-sm-8">
+            <h3>Reviewing Existing Applications</h3>
+            <p>We found that shared calendars are often cluttered and unreadable as well as a privacy issue when forced
+                to share one's entire agenda. Meanwhile, most users consider event invites to be too formal and
+                inflexible for planning laidback hangout sessions.</p>
+        </div>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>Analysis</h1>
+    </div>
+
+    <!--Analysis -- Users-->
+    <div class="portfolio-description-section">
+        <h3>Target Users</h3>
+        <p>Younger audience (14-35)-- tech savvy and use their phones regularly</p>
+        <img class="project-description-img" src="./src/img/projects/you-in/you-in-personas.png"/>
+    </div>
+
+    <!--Analysis -- Task-->
+    <div class="portfolio-description-section">
+        <h3>Task Analysis</h3>
+        <p> From left to right:</p>
+        <ol>
+            <li>Trying to find a time to catch up with a specific friend who is also busy</li>
+            <li>Planning a group event with multiple people</li>
+            <li>Wanting to turn a regular lunch break/free time into a more social event</li>
+        </ol>
+        <img class="project-description-img" src="./src/img/projects/you-in/you-in-task-analysis.png"/>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>Design</h1>
+    </div>
+
+    <!--Design -- Design Options-->
+    <div class="row portfolio-description-section">
+        <div class="col-sm-7">
+            <h3>Design Options</h3>
+            <p>After a few iterations, we narrowed our design options to three: calendar view, list view, and single
+                card view. Ultimately, we landed on the list view as the calendar view was too cluttered and better
+                suited for time management purposes and the single card view was too slow to navigate and difficult
+                to track down specific
+                events.</p>
+        </div>
+        <div class="col-sm-5">
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+        </div>
+    </div>
+
+    <!--Design -- Storyboards-->
+    <div class="row portfolio-description-section">
+        <div class="col-sm-3">
+            <h3>Storyboards</h3>
+        </div>
+        <div class="col-sm-9">
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-storyboards.png">
+        </div>
+    </div>
+
+    <!--Design -- Prototype-->
+    <div class="row portfolio-description-section">
+        <div class="col-sm-3">
+            <h3>Prototype</h3>
+            <a href="https://projects.invisionapp.com/share/G4URI1UNEAV#/screens/392714800"
+               target="_blank">
+                View the prototype in InVision.
+            </a>
+        </div>
+        <div class="col-sm-9">
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-prototype.png">
+        </div>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>User Evaluation</h1>
+    </div>
+
+    <div class="portfolio-description-section">
+    <h3>Prototype Revision (User Evaluation, Rounds 1 and 2)</h3>
+    </div>
+    <div class="row portfolio-description-section">
+        <div class="col-sm-4">
+            <img class="project-description-img" src="./src/img/projects/you-in/you-in-add-change.png">
+        </div>
+        <div class="col-sm-8">
+            <p>Users had difficulty understanding the meaning of the “+” button on each page and others did not
+                realize it was clickable. Therefore, instead of the same "+" button, we replaced the "+" with a
+                more specific icon on each page (e.g., a calendar with a +-sign for adding an event and a person
+                with a +-sign to add a friend). We also changed the background of the button to make it clear it was
+                clickable.</p>
+        </div>
+    </div>
+        <ol>
+
+            <li>
+            <img src="./src/img/projects/you-in/you-in-name-change.jpg"/>
+            <li>Users were confused whether “My Events” were events the user was attending or the events the user was hosting. Thus, we decided to change the vocabulary to “Hosted Events” to avoid confusion between all events, and events hosted by user.</li>
+            <img src="./src/img/projects/you-in/you-in-confirmation-change.jpg"/>
+            <li>Users showed some uncertainty ("Is that it?") when sending a friend request. So, we added a confirmation message after the user sends a friend request.</li>
+            <img src="./src/img/projects/you-in/you-in-modal-change.jpg"/>
+            <li>Instead of navigating to a new page for each event detail, we changed it to a modal window, giving users a stronger sense of where they are in the app.</li>
+        </ol>
+    
+    <h3>Implementation Revisions (User Evaluation, Round 3)</h3>
     <ol>
-        <li>Users sharing their available free times (“events”) along with details they might want to do during that time (e.g., meals, drinks, study buddy).</li>
-        <li>Users seeing and joining their friend’s “events” if they’re available.</li>
-    </ol>
-    <p>You In? is a mobile application developed as a team project throughout a Human-Computer Interaction course.</p>
-    <p>Framework Used: NativeScript+Vue</p>
-    
-    <!--Research and analysis before designing-->
-    <h1>Research and Analysis</h1>
-    
-    <h3>Defining the Problem</h3>
-    <p>It’s difficult to find time to get together with friends. The issue is exacerbated by highly variable schedules and the inability to easily communicate one's free time to each of one's friends.</p>
-    
-    <h3>Reviewing Existing Research</h3>
-    <p>Research in the field of shared calendars has mostly been restricted to calendars shared within families or workplaces, instead of friendships. Bødker and  Grönvall summarize the three core uses of family calendars: </p>
-    <ol>
-        <li>Coordination and Negotiation: to work out a shared understanding of what, when and by whom something should be performed,</li>
-        <li>Review and reminders: to provide an overview (short-term and future) of what activities will take place and act as a to-do list and finally</li>
-        <li>Awareness: provide and understand what other people within a family are doing and where.</li>
-    </ol>
-   <p>Our project will primarily focus on the third use (awareness). We want to make it easy for users to see when their friends are available and to easily find time to meet. The secondary purpose of our project would be the first use (coordination and negotiation). Following awareness of available times to meet, we would like our users to be able to decide what to do during that time. Our project will splinter from the second use (review and reminders) as events posted will not serve as a traditional posting on a calendar (eg. a family dinner or office meeting you must attend). Instead posted events will serve more as open invitations to whoever is willing and available to join.</p>
-   <p>References:</p>
-   <ol>
-   <li>Hutchison, H., Bederson, B. B., Plaisant, C., & Druin, A. (2003). Family Calendar Survey . University of Maryland. Retrieved from https://drum.lib.umd.edu/handle/1903/1236</li>
-   <li>Bødker S., Grönvall E. (2013) Calendars: Time Coordination and Overview in Families and Beyond. In: Bertelsen O., Ciolfi L., Grasso M., Papadopoulos G. (eds) ECSCW 2013: Proceedings of the 13th European Conference on Computer Supported Cooperative Work, 21-25 September 2013, Paphos, Cyprus. Springer, London</li>
-   </ol>
-    
-    <h3>Reviewing Existing Applications</h3>
-    <img src="./src/img/projects/you-in/you-in-existing-apps.png"/>
-    <p>We found that shared calendars are often cluttered and unreadable as well as a privacy issue when forced to share one's entire agenda. Meanwhile, event invites are considered too formal and inflexible for planning laidback hangout sessions.</p>
-    
-    <h3>Defining the Users</h3>
-    <p>Broadly, target audience is a younger audience (14-35), that are tech savvy and use their phone regularly.</p>
-    <h5>Personas</h5>
-    <img src="./src/img/projects/you-in/you-in-personas.png"/>
-    
-    <h3>Task Analysis</h3>
-    <img src="./src/img/projects/you-in/you-in-task-analysis.png"/>
-    <p> From top to bottom:</p>
-    <ol>
-        <li>Trying to find a time to catch up with a specific friend who is also busy</li>
-        <li>Planning a group event with a lot of people</li>
-        <li>Wanting to turn your regular lunch break/free time into a more social event</li>
+        <img src="./src/img/projects/you-in/you-in-add-change.jpg"/>
+        <li>Users spent an extra few moments opening the hamburger menu in order to tap on the destination page. We changed it to a tab bar style menu to streamline the process of navigating to another page.</li>
+        <li>Users showed confusion on the wording of “Hosted Events”, which had been changed in the previous rounds of revision, as it might imply events in the past. After consulting the Facebook events page, we decided that “Hosting” is representative of the page and easily understood by users due to familiarity.</li>
+        <li>“Add Events” is only on the “Hosting” page, not on the “Explore” page.</li>
     </ol>
     
-    <!--Overview of steps we took in the design process-->
-    <h1>The Design Process</h1>
-    
-    <h3>Design Options</h3>
-    <img src="./src/img/projects/you-in/you-in-design-options.jpg"/>
-    <p>After a few iterations, we narrowed our design options to the three above: calendar view, list view, and single card view. Ultimately, we landed on the list view as the calendar view was too cluttered and better suited for time management purposes and the single card view was too slow to navigate and difficult to track down specific events.</p>
-    
-    <h3>Storyboards</h3>
-    <img src="./src/img/projects/you-in/you-in-storyboards.png"/>
-    
-    <h3>Prototype</h3>
-    <img src="./src/img/projects/you-in/you-in-prototype.png"/>
-    <a href="https://projects.invisionapp.com/share/G4URI1UNEAV#/screens/392714800"
-        target="_blank">
-        Check out the prototype in InVision.
-    </a>
-    
-    <h3>User Testing and Changes</h3>
+    <h1>Final Implementation</h1>
+    details
+    user feedback
+    to run:
+    1. Install Node.js
+    2. Install the Nativescript CLI in your terminal (npm install -g nativescript)
+    3. On your phone, download NativeScript Playground and NativeScript Preview from the (app store)
+    4. In the terminal (in the you-in directory), run the command tns preview
+    5. Scan the QR code generated in the terminal with the NativeScript Playground app
+    6. The app preview will automatically open in the NativeScript Preview app
     
     <h1>More</h1>
     <p>Github: https://github.com/kimclar/you-in-app</p>
