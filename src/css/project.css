@@ -2,6 +2,10 @@ body {
     color: #707070;
 }
 
+a {
+    color: #707070;
+}
+
 div.portfolio-description-section {
     padding: 3% 10% 0%;
 }
@@ -39,4 +43,12 @@ img.project-description-img {
     max-width: 100%;
     max-height: 100%;
     margin-bottom: 5px;
+}
+
+div.project-next {
+    text-align: right;
+}
+
+img.project-next {
+    width: 50px;
 }
