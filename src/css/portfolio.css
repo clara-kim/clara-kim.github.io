@@ -149,3 +149,35 @@ nav.bg-yellow{
 a.dropdown-selected {
     background-color: #FDE88D;
 }
+
+div.project-nav {
+    background-color: #FDE88D;
+    margin-top: 20px;
+    font-size: xx-large;
+    padding: 0px 15px;
+    text-align: right;
+    vertical-align: middle;
+    float: right;
+}
+
+div.project-nav-prev {
+    background-color: #FDE88D;
+    margin-top: 20px;
+    font-size: xx-large;
+    padding: 0px 15px;
+    text-align: left;
+    vertical-align: middle;
+    float: left;
+}
+
+a.project-next {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+a.project-prev {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
