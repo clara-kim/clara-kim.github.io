@@ -65,7 +65,7 @@ span.portfolio-item-tag {
     margin-right: 10px;
 }
 
-#portfolio-big-circle {
+div#portfolio-big-circle {
     position: absolute;
     top: 15%;
     left: 13%;
@@ -76,7 +76,7 @@ span.portfolio-item-tag {
     z-index: -100;
 }
 
-#portfolio-small-circle {
+div#portfolio-small-circle {
     position: absolute;
     top: 40%;
     left: 48%;
@@ -140,4 +140,12 @@ a.portfolio-icon {
 
 a.portfolio-link {
     text-decoration: none;
+}
+
+nav.bg-yellow{
+    background-color: #FCF5CA;
+}
+
+a.dropdown-selected {
+    background-color: #FDE88D;
 }
