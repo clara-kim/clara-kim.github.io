@@ -68,13 +68,30 @@ span.portfolio-item-tag {
 div#portfolio-big-circle {
     position: absolute;
     top: 15%;
-    left: 13%;
+    left: 10%;
     background-color: #FDCC8D;
-    height: 350px;
-    width: 350px;
+    height: 425px;
+    width: 425px;
     border-radius: 350px;
     z-index: -100;
+    /*animation: animate 25s linear infinite;*/
+    /*animation-delay: 0s;*/
+    /*animation-duration: 40s;*/
 }
+/*@keyframes animate {*/
+/*    0% {*/
+/*        transform: translateY(0);*/
+/*        opacity: 0;*/
+/*    }*/
+/*    50% {*/
+/*        transform: translateY(-60vh);*/
+/*        opacity: 1;*/
+/*    }*/
+/*    100% {*/
+/*        transform: translateY(-120vh);*/
+/*        opacity: 0;*/
+/*    }*/
+/*}*/
 
 div#portfolio-small-circle {
     position: absolute;
@@ -151,7 +168,6 @@ a.dropdown-selected {
 }
 
 div.project-nav {
-    background-color: #FDE88D;
     margin-top: 20px;
     font-size: xx-large;
     padding: 0px 15px;
@@ -161,7 +177,6 @@ div.project-nav {
 }
 
 div.project-nav-prev {
-    background-color: #FDE88D;
     margin-top: 20px;
     font-size: xx-large;
     padding: 0px 15px;
