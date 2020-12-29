@@ -15,7 +15,9 @@
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Clara Kim</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -87,17 +89,17 @@
             <h5> Who did it?</h5>
             <p>A team of 4 throughout a mobile app development course.</p>
             <p>Both frontend and backend tasks were distributed among the team. My primary role
-                was working on the frontend and backend for the SnackBusting Activity, the New Post
-                Activity, and all notifications (via FCM). I also edited our demo video. All
+                was working on the frontend and backend for the Snack Busting activity, the New Post
+                activity, and all notifications (via FCM). I also edited our demo video. All
                 planning was done together as a group.</p>
             <br/>
             <h5>Project Type</h5>
-            <p>Android Studio, Java, Firebase Realtime Database, Firebase Cloud Messaging</p>
+            <p>Android Studio, Java, Firebase (Authentication, Realtime Database, Cloud Messaging)</p>
         </div>
     </div>
 
     <div class="portfolio-new-section">
-        <h1>App Tour</h1>
+        <h1>Video Tour</h1>
     </div>
 
     <div class="portfolio-description-section portfolio-video">
@@ -105,6 +107,141 @@
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>Types of Posts</h1>
+    </div>
+
+    <div class="portfolio-description-section">
+        <div class="row">
+            <div class="col-sm-4">
+                <h3>Stash Swap</h3>
+                <p>Share photos of craft materials you want to swap and what you want to swap it
+                    for. Be good to the environment and your wallet by swapping materials with other
+                    crafters in the area instead of buying new.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Stash Panel</h3>
+                <p>Share photos of craft materials you’re unsure what to do with and get project
+                    suggestions and inspirations from other crafters in the community.</p>
+            </div>
+            <div class="col-sm-4">
+                <h3>Snack Busting</h3>
+                <p>Long sleeves or short sleeves? Blue or green? When struggling between two choices,
+                    share a photo of your project, along with a question, and two possible choices.
+                    Other crafters in the app help make decisions by casting quick votes during their
+                    downtime.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-new-section">
+        <h1>Main Activities (Screens)</h1>
+    </div>
+
+    <!--TODO: REPLACE ALL IMAGES WITH PROPER SCREENSHOTS-->
+    <div class="portfolio-description-section">
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Login/Register</h3>
+                <p>The Login/Register activities allow the user to register a new account or login
+                    to an existing one. Authentication is handled through Firebase Authentication.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Stash Panel and Swap Panel Posts</h3>
+                <p>Unsurprisingly, the Stash Panel Post and Stash Swap Post activities display one
+                    Stash Panel post and one Stash Swap post, respectively. They display the
+                    contents of the post (title, photo, description), a like button, and a comments
+                    section. On a person Stash Swap Post, the current user can mark a swap as
+                    complete by marking the supply as "unavailable".</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>My Feed</h3>
+                <p>My Feed displays all Stash Panel and Stash Swap posts from users the
+                    current user is following. Most recent posts are displayed at the top. Clicking
+                    any post in the feed will open up that post in a separate activity. If there are
+                    no posts to display, an appropriate message is displayed.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>World Feed</h3>
+                <p>World Feed displays all Stash Panel and Stash Swap posts from all users in the app.
+                    The current user can filter posts based on post type (Stash Panel or Stash Swap).
+                    Most recent posts are displayed at the top. Clicking
+                    any post in the feed will open up that post in a separate activity.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>New Post</h3>
+                <p>In New Post, users can post any of the three types of post: Stash Panel, Stash
+                    Swap, or Stash Busting. After posting, the app navigates to the newly created
+                    post.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>My Profile</h3>
+                <p>My Profile displays the current user's username, profile picture, bio, all posts
+                    they have posted, and all posts they have liked.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>My Profile</h3>
+                <p>My Profile displays the current user's username, profile picture, bio, all posts
+                    they have posted, and all posts they have liked.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Other's Profile</h3>
+                <p>Other's Profile displays a user's username, profile picture, bio, all posts
+                    they have posted, and all posts they have liked. It also displays a follow
+                    button, which the current user can tap to follow the user.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-7">
+                <h3>Snack Busting</h3>
+                <p>The Snack Busting activity displays all users' Snack Busting posts one at a time.
+                    The current user swipes left or right to vote and the next post is displayed.
+                    When there are no more posts, an appropriate message is displayed.</p>
+            </div>
+            <div class="col-sm-5">
+                <img class="project-description-img" src="./src/img/projects/you-in/you-in-design-options.jpg"/>
+            </div>
+        </div>
     </div>
 
     <!--<div>-->
