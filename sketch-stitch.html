@@ -13,35 +13,56 @@
 </head>
 <body>
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-yellow">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Clara Kim</a>
-        <button class="navbar-toggler" type="button"
-                data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item dropdown">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle"
-                       id="navbarDropdownMenuLink"
-                       data-toggle="dropdown"
-                       aria-haspopup="true"
-                       aria-expanded="false">
-                        Projects
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="you-in.html">You In?</a>
-                        <!--                        <div class="dropdown-divider"></div>-->
-                        <a class="dropdown-item" href="word-nerds.html">Word Nerds</a>
-                        <!--                        <div class="dropdown-divider"></div>-->
-                        <a class="dropdown-item dropdown-selected" href="sketch-stitch.html">Sketch Stitch</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="./you-in.html">You In?<span class="sr-only">(current)</span></a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./word-nerds.html">Word Nerds</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Sketch Stitch</a>
+                </li>
+                <!--<li class="nav-item dropdown">-->
+                <!--<a class="nav-link dropdown-toggle"-->
+                <!--id="navbarDropdownMenuLink"-->
+                <!--data-toggle="dropdown"-->
+                <!--aria-haspopup="true"-->
+                <!--aria-expanded="false">-->
+                <!--Projects-->
+                <!--</a>-->
+                <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
+                <!--<a class="dropdown-item dropdown-selected" href="you-in.html">You In?</a>-->
+                <!--<a class="dropdown-item" href="word-nerds.html">Word Nerds</a>-->
+                <!--<a class="dropdown-item" href="sketch-stitch.html">Sketch Stitch</a>-->
+                <!--</div>-->
+                <!--</li>-->
             </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn my-2 my-sm-0"
+                   title="Github: clara-kim"
+                   href="https://github.com/clara-kim">
+                    <i class="fa fa-github btn-white"></i>
+                </a>
+                <a class="btn my-2 my-sm-0"
+                   title="LinkedIn: claradkim"
+                   href="http://linkedin.com/in/claradkim">
+                    <i class="fa fa-linkedin btn-white"></i>
+                </a>
+                <a class="btn my-2 my-sm-0"
+                   title="My Resume"
+                   href="./src/docs/Clara-Kim-Resume-Dec20.pdf">
+                    <i class="fa fa-file-text btn-white"></i>
+                </a>
+            </form>
         </div>
     </nav>
 

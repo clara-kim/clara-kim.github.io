@@ -54,3 +54,11 @@ div.project-next {
 img.project-next {
     width: 50px;
 }
+
+a.navbar-brand {
+    font-family: Courier, monospace;
+}
+
+i.btn-white {
+    color: white;
+}
