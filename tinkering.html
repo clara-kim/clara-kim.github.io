@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Clara's Tinkering</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          rel="stylesheet"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          rel="stylesheet"/>
+    <link href="src/css/project.css" rel="stylesheet"/>
+    <link href="src/css/tinkering.css" rel="stylesheet"/>
+    <link href="src/css/navbar.css" rel="stylesheet"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./src/img/favicon.ico"/>
+</head>
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">Clara Kim</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./stashbusters.html">StashBusters</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./you-in.html">You In?<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sketch-stitch.html">Sketch Stitch</a>
+                </li>
+                <li class="nav-item navbar-sep">&#9733;</li>
+                <li class="nav-item active">
+                    <a class="nav-link" href=".#">Tinkering</a>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <a class="btn my-2 my-sm-0"
+                   title="Github: clara-kim"
+                   href="https://github.com/clara-kim">
+                    <i class="fa fa-github btn-white"></i>
+                </a>
+                <a class="btn my-2 my-sm-0"
+                   title="LinkedIn: claradkim"
+                   href="http://linkedin.com/in/claradkim">
+                    <i class="fa fa-linkedin btn-white"></i>
+                </a>
+                <a class="btn my-2 my-sm-0"
+                   title="My Resume"
+                   href="./src/docs/Clara-Kim-Resume-Dec20.pdf">
+                    <i class="fa fa-file-text btn-white"></i>
+                </a>
+            </form>
+        </div>
+    </nav>
+
+    <!--PORTFOLIO SECTION - the right side of the page-->
+    <h2 id="tinkering-title-line">
+        <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+        <span id="tinkering-title"> tinkering </span>
+    </h2>
+
+    <div class="tinkerings-sect">
+        <div class="row">
+
+            <div class="col-sm-6 col-md-4">
+                <a class="tinkering-link" href="./word-nerds.html">
+                    <div class="tinkering-post">
+                        <h2 title="tinkering-title">Word Nerds</h2>
+                        <img class="tinkering-img" src="./src/img/word-nerds-screenshot.PNG">
+                        <p>A community dictionary of users engaging with meaningful input.</p>
+                        <p>
+                            <a href="https://github.com/clara-kim/word-nerds-client-react"
+                               title="Github Repo"
+                               target="_blank"
+                               class="tinkering-link">
+                                <i class="fa fa-github fa-2x"></i>
+                            </a>
+                            <a href="https://word-nerds.herokuapp.com/"
+                               title="Heroku Deployment"
+                               target="_blank"
+                               class="tinkering-link">
+                                <i class="fa fa-globe fa-2x"></i>
+                            </a>
+                        </p>
+                        <p>
+                            <span class="tinkering-item-tag">web development</span>
+                            <span class="tinkering-item-tag">React</span>
+                            <span class="tinkering-item-tag">HTML/CSS</span>
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="tinkering-post">
+                    <h2 title="tinkering-title">Stardust</h2>
+                    <img class="tinkering-img" src="./src/img/projects/tinkerings/stardust.PNG">
+                    <p>A remake of the game "Breakout" based on Joey de Vries' tutorial on
+                        LearnOpenGL.com</p>
+                    <p>
+                        <a href="https://youtu.be/IV4EvMX9Lw8"
+                           title="Video Tour"
+                           target="_blank"
+                           class="tinkering-link">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </p>
+                    <p>
+                        <span class="tinkering-item-tag">computer graphics</span>
+                        <span class="tinkering-item-tag">C++</span>
+                        <span class="tinkering-item-tag">C++</span>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</body>
+</html>

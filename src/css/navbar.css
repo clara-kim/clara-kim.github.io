@@ -1,0 +1,15 @@
+.navbar-sep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+i.btn-white {
+    color: white;
+}
+
+a.navbar-brand {
+    font-family: Courier, monospace;
+}

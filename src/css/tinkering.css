@@ -1,0 +1,51 @@
+body {
+    padding-top:70px;
+    background-color: #F2F8FC;
+}
+
+h2#tinkering-title-line {
+    text-align: left;
+    border-bottom: 3px solid #FDE88D;
+    line-height: 0.3em;
+    margin: 10px 0 20px;
+    color: #FFCF00;
+}
+
+span#tinkering-title {
+    color: #FFCF00;
+    background-color:#F2F8FC;
+    padding: 0 10px;
+}
+
+div.tinkerings-sect{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+div.tinkering-post{
+    background-color: #FDE88D;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 5px;
+}
+
+img.tinkering-img{
+    width: 100%;
+}
+
+a.tinkering-link {
+    text-decoration: none;
+    color: #66635C;
+}
+
+span.tinkering-item-tag {
+    background-color: #F9F4E7;
+    padding: 2px 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-family: Lucidatypewriter, monospace;
+}
+
+h2 {
+    text-align: center;
+}
