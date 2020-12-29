@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Sketch Stitch</title>
+    <title>StashBusters</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           rel="stylesheet"/>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,29 +21,15 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="./stashbusters.html">StashBusters</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">StashBusters</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./you-in.html">You In?<span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Sketch Stitch</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="./sketch-stitch.html">Sketch Stitch</a>
                 </li>
-                <!--<li class="nav-item dropdown">-->
-                <!--<a class="nav-link dropdown-toggle"-->
-                <!--id="navbarDropdownMenuLink"-->
-                <!--data-toggle="dropdown"-->
-                <!--aria-haspopup="true"-->
-                <!--aria-expanded="false">-->
-                <!--Projects-->
-                <!--</a>-->
-                <!--<div class="dropdown-menu" aria-labelledby="navbarDropdown">-->
-                <!--<a class="dropdown-item dropdown-selected" href="you-in.html">You In?</a>-->
-                <!--<a class="dropdown-item" href="word-nerds.html">Word Nerds</a>-->
-                <!--<a class="dropdown-item" href="sketch-stitch.html">Sketch Stitch</a>-->
-                <!--</div>-->
-                <!--</li>-->
             </ul>
 
             <form class="form-inline my-2 my-lg-0">
@@ -66,52 +52,74 @@
         </div>
     </nav>
 
+    <!--TODO: REPLACE WITH HIGH RES SCREENSHOTS-->
     <div class="portfolio-top-image portfolio-top-section">
-        <img class="project-description-img" src="./src/img/sketch-stitch-logo.PNG"/>
+        <img class="col-4" src="./src/img/projects/stashbusters/snackbusting.PNG"/>
+        <img class="col-4" src="./src/img/projects/stashbusters/my-profile.PNG"/>
+        <!--<img class="col-4" src="./src/img/projects/stashbusters/new-posts.PNG"/>-->
     </div>
 
     <!--General details about the project.-->
     <div class="row portfolio-description-section">
         <div class="col-sm-4">
-            <h1>Sketch Stitch</h1>
+            <h1>StashBusters</h1>
             <p class="project-italicized">
-                January-May, 2020
+                Sept-Dec, 2020
             </p>
             <p>
-                <a href="https://github.com/clara-kim/sketch-stitch-overview"
+                <!--TODO: UPDATE GIT REPO LINK-->
+                <a href="#"
                    title="Github Repo"
                    target="_blank">
                     <i class="fa fa-github fa-2x"></i>
-                    Documentation
+                    Github Repo
                 </a>
             </p>
         </div>
 
         <div class="col-sm-8 portfolio-light-section">
             <h5> What is it?</h5>
-            <p>Sketch Stitch is a collaborative painting application through which users can virtually paint on the same canvas over a network.</p>
+            <p>StashBusters is a social, collaborative, and eco-conscious app where users share
+                photos of their craft supply stashes -- fabric, yarn, beads, paper, etc. -- and swap
+                supplies and ideas for using them, boosting creativity and keeping craft materials
+                out of landfills.</p>
             <br/>
-            <h5>Who did it?</h5>
-            <p>A team of 4 throughout a software engineering course</p>
-            <p>My role was implementing the network and the GUI.</p>
+            <h5> Who did it?</h5>
+            <p>A team of 4 throughout a mobile app development course.</p>
+            <p>Both frontend and backend tasks were distributed among the team. My primary role
+                was working on the frontend and backend for the SnackBusting Activity, the New Post
+                Activity, and all notifications (via FCM). I also edited our demo video. All
+                planning was done together as a group.</p>
             <br/>
-            <h5> Project Type</h5>
-            <p>Software Engineering, C++, OpenGL, SFML, Nuklear, Catch2</p>
+            <h5>Project Type</h5>
+            <p>Android Studio, Java, Firebase Realtime Database, Firebase Cloud Messaging</p>
         </div>
     </div>
 
     <div class="portfolio-new-section">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8fsAcAwJVaM"
+        <h1>App Tour</h1>
+    </div>
+
+    <div class="portfolio-description-section portfolio-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/nnccEtmRaM4"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
     </div>
 
-    <!--<div class="project-nav-prev">-->
-        <!--<a class="project-prev" href="word-nerds.html">-->
-            <!--<i class="fa fa-angle-left fa-2x"></i>-->
-            <!--<span>&nbsp; Previous: Y</span>-->
-        <!--</a>-->
+    <!--<div>-->
+        <!--<div class="project-nav">-->
+            <!--<a class="project-next" href="sketch-stitch.html">-->
+                <!--<span>Next: Sketch Stitch&nbsp;</span>-->
+                <!--<i class="fa fa-angle-right fa-2x"></i>-->
+            <!--</a>-->
+        <!--</div>-->
+        <!--<div class="project-nav-prev">-->
+            <!--<a class="project-prev" href="you-in.html">-->
+                <!--<i class="fa fa-angle-left fa-2x"></i>-->
+                <!--<span>&nbsp; Previous: You In?</span>-->
+            <!--</a>-->
+        <!--</div>-->
     <!--</div>-->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
