@@ -58,3 +58,7 @@ img.project-next {
 .portfolio-video{
     text-align: center;
 }
+
+div.activity-row {
+    margin-bottom: 20px;
+}
